@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{
+margin: 0% auto;
+padding: 0% auto;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+body{
+background-image:url(IMG/pexels-alfo-medeiros-11576457.jpg);
+    
+}
+
+.Menu{
+text-decoration: none;
+font-family:'Montserrat', sans-serif;
+list-style:none;
+font-size: 20px;
+text-align:right;
+background-color: #a5a49e;
+
+
+}
+
+.Menu li{
+display: inline-block;
+padding-right: 30px;
+color:rgb(0, 0, 0);
+}
+
+.Menu li:hover{
+background-color:#fbe569;
+transition:.6s;
+padding: 15px;
+cursor: pointer;
+
+
+}
+
+
+h1{
+color: rgb(255, 255, 255);
+font-size:65px;
+margin-top:80px;
+padding-left:200px;
+}
+
+h2{
+color: yellow;
+
+font-size:47px;
+margin-top:30px;
+position: absolute;
+padding-left:120px;
+}
+
+h3{
+color: wheat;
+text-align: right;
+padding-right: 200px;
+margin-top: 120px;
+font-size: 38px;
+font-family: 'Dancing Script', cursive;
+}
